@@ -1,13 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
- <link rel="stylesheet" href="css/project.css">
+ 
   <title>project about cards</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="css/project.css">
 </head>
 
 <body>
@@ -34,231 +33,594 @@
             <div class="row">
                 <div class="col-sm-3">
                     <div class="card">
-                        <a href="#"><img class="img-responsive"
-                        img class="card-img-top" style="height: 200px;" src="https://i.pravatar.cc/150?img=12"></a>
+                        <a href="#user1"><img class="img-responsive"
+                        img class="card-img-top" style="height: 200px;" src="https://i.pravatar.cc/150?img=12" 
+                        data-toggle="modal"
+                        data-target="#user1"></a>
                         <div class="card-block">
-                            <h3 class="card-title">Title: </h3>
-                            <p class="card-text">name:</p>
-                             <p class="card-text">surname:</p>
-                             <p class="card-text">email:</p>  
-                             <p class="card-text">cell number:</p> 
-                             <p class="card-text">landline:</p>
-                            
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-3">
-                    <div class="card">
-                        <a href="#"><img class="img-responsive"
-                        img class="card-img-top" style="height: 200px;" src="https://i.pravatar.cc/150?img=34"></a>
-                        <div class="card-block">
-                            <h3 class="card-title">Title:</h3>
-                            <p class="card-text">name:</p>
-                            <p class="card-text">surname:</p>
-                            <p class="card-text">email:</p>  
-                            <p class="card-text">cell number:</p> 
-                            <p class="card-text">landline:</p>
-                                               
-              </div>
-                    </div>
-                        </div>
-                        <div class="col-sm-3">
-                            <div class="card">
-                                <a href="#"><img class="img-responsive"
-                                img class="card-img-top" style="height: 200px;" src="https://i.pravatar.cc/150?img=54"></a>
-                              <div class="card-block">
-                               <h3 class="card-title">Title:</h3>
-                               <p class="card-text">name: </p>
-                               <p class="card-text">surname:</p>
-                               <p class="card-text">email:</p>  
-                               <p class="card-text">cell number:</p> 
-                               <p class="card-text">landline:</p>
-                                    
-                      </div>
-                            </div>
-                                </div>
-                                <div class="col-sm-3">
-                                    <div class="card">
-                                        <a href="#"><img class="img-responsive"
-                                        img class="card-img-top" style="height: 200px;" src="https://i.pravatar.cc/150?img=41"></a><!--to make the image a link or clickable -->
-                                        <div class="card-block">
-                              <h3 class="card-title">Title:</h3>
-                               <p class="card-text">name:</p>
-                               <p class="card-text">surname:</p>
-                               <p class="card-text">email:</p>  
-                               <p class="card-text">cell number:</p> 
-                               <p class="card-text">landline:</p>
-                              
-
+                            <h3 class="card-title">Title:Manager </h3>
+                            <p class="card-text">name: Brendan</p>
+                             <p class="card-text">surname: White</p>
+                             <p class="card-text">email: brendanwhite@gmail.com</p>  
+                             <p class="card-text">cell number: (+27)78 127 1843</p> 
+                             <p class="card-text">landline: 021 116 7662</p>
+                                            <button
+                                 type="button"
+                                 class="btn-btn-primary"
+                                  data-toggle="modal"
+                                 data-target="#user1">more info
+                                             </button>
+                                             <button
+                                             type="button"
+                                             class="btn-btn-primary"
+                                             data-toggle="modal"
+                                             data-target="#Delete">Delete
+                                            </button>
+                                               <!--modal for the first user-->                                                             
+                                      <div class="modal" id="user1">
+                                      <div class="modal-dialog">
+                                       <div class="modal-content">
+                                        <div class="modal-header">
+                                        <h3 class="modal-title">Additional Details</h3>
+                                       <button type="button" class="close" data-dismiss="modal">&times;
+                                            </button>
+                                             </div>
+                      
+                      <!--this is where the info  goes-->
+                          <div class="modal-body">
+                               <ol>
+                                  <li>user home address: 13 Belgravia str</li>
+                                  <li>next of kin's name: Samantha white</li>
+                                  <li>relationship with next of kin: Husband</li>
+                                  <li>next of kin's cellphone number:(+27)63 233 0948</li>
+                                  <li>next of kin's email address: sammwhite@gmail.com</li>
+                              </ol>
                               </div>
-                                    </div>
-                                        </div>
-                                 <div class="col-sm-3">
-                                  <div class="card">
-                                 <a href="#"><img class="img-responsive"
-                                    img class="card-img-top" style="height: 200px;" src="https://i.pravatar.cc/150?img=32"></a>
-                                    <div class="card-block">
-                                        <h3 class="card-title">Title:</h3>
-                                <p class="card-text">name:</p>
-                                <p class="card-text">surname:</p>
-                                <p class="card-text">email:</p>  
-                                <p class="card-text">cell number:</p> 
-                                <p class="card-text">landline:</p>
-                                    
-                                                             
-                                      </div>
+                              <div class="modal-footer">
+                                 <button
+                                  type="button"
+                                  class="btn-btn-danger"
+                                  data-dismiss="modal">
+                              close
+                              </button>
+                                         </div>
                                             </div>
                                                 </div>
-                                 <div class="col-sm-3">
-                                 <div class="card">
-                                 <a href="#"><img class="img-responsive"
-                                     img class="card-img-top" style="height: 200px;" src="https://i.pravatar.cc/150?img=35"></a>
-                                            <div class="card-block">
-                              <h3 class="card-title">Title:</h3>
-                              <p class="card-text">name:</p>
-                              <p class="card-text">surname:</p>
-                              <p class="card-text">email:</p>  
-                              <p class="card-text">cell number:</p> 
-                              <p class="card-text">landline:</p>
-                                            
-                                                                     
-                                              </div>
-                                                    </div>
-                                                        </div>
-                                 <div class="col-sm-3">
-                                   <div class="card">
-                                     <a href="#"><img class="img-responsive"
-                                         img class="card-img-top" style="height: 200px;" src="https://i.pravatar.cc/150?img=17"></a>
-                                            <div class="card-block">
-                                <h3 class="card-title">Title:</h3>
-                                <p class="card-text">name:</p>
-                                <p class="card-text">surname:</p>
-                                <p class="card-text">email:</p>  
-                                <p class="card-text">cell number:</p> 
-                                <p class="card-text">landline:</p>
-                                                    
-                                                                             
-                                                      </div>
-                                                            </div>
-                                                                </div>  
-                                                                                           
-                               <div class="col-sm-3">
-                                 <div class="card">  
-                                    <a href="#"><img class="img-responsive"
-                                         img class="card-img-top" style="height: 200px;" src="https://i.pravatar.cc/150?img=11"></a>
-                                            <div class="card-block">
-                                <h3 class="card-title">Title:</h3>
-                                <p class="card-text">name:</p>
-                                <p class="card-text">surname:</p>
-                                <p class="card-text">email:</p>  
-                                <p class="card-text">cell number:</p> 
-                                <p class="card-text">landline:</p>
-                            </div>
+                                                     </div>
+                                                         </div>
+                                                             </div>
+                                                                 </div>
+                <div class="col-sm-3">
+                    <div class="card">
+                        <a href="#user2"><img class="img-responsive"
+                        img class="card-img-top" style="height: 200px;" src="https://i.pravatar.cc/150?img=34" 
+                         data-toggle="modal"
+                         data-target="#user2"></a>
+                            <div class="card-block">
+                            <h3 class="card-title">Title: Assistant Manager</h3>
+                            <p class="card-text">name: Elizabeth </p>
+                            <p class="card-text">surname: Adams</p>
+                            <p class="card-text">email: elizabethwhite02@gmail.com</p>  
+                            <p class="card-text">cell number: (+27)73 238 1432</p> 
+                            <p class="card-text">landline: 021 117 7662</p>
+                                          <button
+                                                    type="button"
+                                                    class="btn-btn-primary"
+                                                    data-toggle="modal"
+                                                    data-target="#user2">more info
+                                             </button>
+                                             <button
+                                             type="button"
+                                             class="btn-btn-primary"
+                                             data-toggle="modal"
+                                             data-target="#Delete">Delete
+                                            </button>
+            <!--modal for the second user-->                                                             
+                  <div class="modal" id="user2">
+                   <div class="modal-dialog">
+                   <div class="modal-content">
+                      <div class="modal-header">
+                      <h3 class="modal-title">ADDITIONAL DETAILS</h3>
+                        <button type="button" class="close" data-dismiss="modal">&times;
+                         </button>
                         </div>
-                         </div>
-                         
-    <h2>New User</h2>
-                <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Sign Up</button>
-                    <div class="modal fade" id="myModal" role="dialog">
-                     <div class="modal-dialog">
-                         <div class="modal-content">
-                           <div class="alert alert-default">
-                                <button type="button" class="close" data-dismiss="modal">&times;</button>
-                                 <h3 class="modal-title">SIGN UP</h3>
-                                  <form action="/practice.html" method="POST">
-                 <h1>WELCOME</h1>
-                <p>please sign up</p>
-                
-            </form>
-            <div class="form-row">
-                <label for="username">username:</label>
-                <input type="text" class="form-control" id="uname" placeholder="enter username" name="username" required><br><br>
-                <div class="valid-feedback"></div>
-                <div class="invalid-feedback"></div>
-                <label for="first name">first name:</label>
-                <input type="text" class="form-control" id="uname" placeholder="enter first name" name="first name" required><br><br>
-                <div class="valid-feedback"></div>
-                <div class="invalid-feedback"></div>
-                <label for="last name">last name:</label>
-                <input type="text" class="form-control" id="uname" placeholder="enter last name" name="last name" required><br><br>
-                <div class="valid-feedback"></div>
-                <div class="invalid-feedback"></div>
-                <label for="last name">email address:</label>
-                <input type="text" class="form-control" id="uname" placeholder="enter email@gmail.com" name="email address" required><br><br>
-                <div class="valid-feedback"></div>
-                <div class="invalid-feedback"></div>
-                <label for="last name">cellphone number:</label>
-                <input type="text" class="form-control" id="uname" placeholder="enter cellphone number" name="cellphone number" required><br><br>
-                <div class="valid-feedback"></div>
-                <div class="invalid-feedback"></div>
-                <label for="last name">landline number:</label>
-                <input type="text" class="form-control" id="uname" placeholder="enter landline number" name="landline number" required><br><br>
-                <div class="valid-feedback"></div>
-                <div class="invalid-feedback"></div>
-                <label for="last name">home address:</label>
-                <input type="text" class="form-control" id="uname" placeholder="enter user home address" name="home address" required><br><br>
-                <div class="valid-feedback"></div>
-                <div class="invalid-feedback"></div>
-                <label for="last name">next of kin:</label>
-                <input type="text" class="form-control" id="uname" placeholder="enter name of next of kin" name="next of kin" required><br><br>
-                <div class="valid-feedback"></div>
-                <div class="invalid-feedback"></div>
-                <label for="last name">relationship with next of kin:</label>
-                <input type="text" class="form-control" id="uname" placeholder="enter relationship with next of kin " name="relationship with next of kin" required><br><br>
-                <div class="valid-feedback"></div>
-                <div class="invalid-feedback"></div>
-                <label for="last name">contact details:</label>
-                <input type="text" class="form-control" id="uname" placeholder="enter next of kin's cellphone number" name="contact details" required><br><br>
-                <div class="valid-feedback"></div>
-                <div class="invalid-feedback"></div>
-                <label for="last name">email address:</label>
-                <input type="text" class="form-control" id="uname" placeholder="enter next of kin's email address@gmail.com" name="email address" required><br><br>
-                <div class="valid-feedback"></div>
-                <div class="invalid-feedback"></div>
-                <label for="user-pw">password:</label>
-                <input type="password" class="form-control" id="uname" placeholder="enter new-password" name="password" required>
-                <div class="valid-feedback"></div>
-                <div class="invalid-feedback"></div>
-                <input type="password" class="form-control" id="uname" placeholder="re-enter-password" name="password" required>
-                <div class="valid-feedback"></div>
-                <div class="invalid-feedback"></div>
-                <small id="user-pwHelp" class="form-text text-muted">your password is safe and secure.</small>
-                <br><br>
-
-            <button type="button" class="btn">Submit</button>
-             <button type="button" class="btn btn-default" data-dismiss="modal">Back</button>
-             
-                                                      </div>
-                                                          </div>
+                      <!--this is where the info  goes-->
+                          <div class="modal-body">
+                              <ol>
+                                  <li>user home address: 14 howards end,pinelands</li>
+                                  <li>next of kin's name: Christine Adams</li>
+                                  <li>relationship with next of kin: Daughter</li>
+                                  <li>next of kin's cellphone number: (+27)71 489 6347</li>
+                                  <li>next of kin's email address: adams903@gmail.com</li>
+                              </ol>
+                              </div>
+                              <div class="modal-footer">
+                                  <button
+                                  type="button"
+                                  class="btn-btn-danger"
+                                  data-dismiss="modal">
+                                     close
+                                     </button>
+                                             </div>
+                                                 </div>
+                                                     </div>
+                                                         </div>
+                                   
                                                               </div>
                                                                   </div>
-                                                                     </div>
+                                                                       </div>
+                        <div class="col-sm-3">
+                            <div class="card">
+                                <a href="#user3"><img class="img-responsive"
+                                img class="card-img-top" style="height: 200px;" src="https://i.pravatar.cc/150?img=54" 
+                                data-toggle="modal"
+                                data-target="#user3"></a>
+                              <div class="card-block">
+                               <h3 class="card-title">Title: Marketing Director</h3>
+                               <p class="card-text">name: Christian</p>
+                               <p class="card-text">surname: Kozlov</p>
+                               <p class="card-text">email: christian178@gmail.com</p>  
+                               <p class="card-text">cell number:(+27)73 476 0984</p> 
+                               <p class="card-text">landline: 021 113 7662</p>
+                                      <button
+                                              type="button"
+                                              class="btn-btn-primary"
+                                              data-toggle="modal"
+                                              data-target="#user3">more info
+                                        </button>
+                                        <button
+                                             type="button"
+                                             class="btn-btn-primary"
+                                             data-toggle="modal"
+                                             data-target="#Delete">Delete
+                                            </button>
+                                        <!--modal for the third user-->                                                             
+                             <div class="modal" id="user3">
+                                     <div class="modal-dialog">
+                                     <div class="modal-content">
+                                     <div class="modal-header">
+                                     <h3 class="modal-title">Additional Details</h3>
+                             <button 
+                             type="button" class="close" data-dismiss="modal">&times;
+                            </button>
+                             </div>
+                      <!--this is where the info  goes-->
+                          <div class="modal-body">
+                              <ol>
+                                  <li>user home address: 172 kloof str</li>
+                                  <li>next of kin's name: tazneem Ismail</li>
+                                  <li>relationship with next of kin: Son</li>
+                                  <li>next of kin's cellphone number: (+27)78 233 4451</li>
+                                  <li>next of kin's email address: mrstazismail@gmail.com</li>
+                              </ol>
+                              </div>
+                              <div class="modal-footer">
+                                  <button
+                                  type="button"
+                                  class="btn-btn-danger"
+                                  data-dismiss="modal">
+                              close
+                              </button>
+                                     </div>
+                                         </div>
+                                             </div>
+                                                 </div>
+                                            
+                                                     </div>
+                                                             </div>
+                                                                   </div>
+                        <div class="col-sm-3">
+                            <div class="card">
+                                        <!--to make the image a link or clickable -->
+                             <a href="#user4"><img class="img-responsive"
+                                img class="card-img-top" style="height: 200px;" src="https://i.pravatar.cc/150?img=41" 
+                                data-toggle="modal"
+                                data-target="#user4"></a>
+                                 <div class="card-block">
+                              <h3 class="card-title">Title: Accountant</h3>
+                               <p class="card-text">name: Natasha</p>
+                               <p class="card-text">surname: Horniet</p>
+                               <p class="card-text">email: natasha101@gmail.com</p>  
+                               <p class="card-text">cell number: (+27)68 334 1749</p> 
+                               <p class="card-text">landline: 021 112 7662</p>
+                                              <button
+                                                     type="button"
+                                                     class="btn-btn-primary"
+                                                     data-toggle="modal"
+                                                     data-target="#user4">more info
+                                                </button>
+                                                <button
+                                             type="button"
+                                             class="btn-btn-primary"
+                                             data-toggle="modal"
+                                             data-target="#Delete">Delete
+                                            </button>
+                                                         <!--modal for the fourth user-->                                                             
+             <div class="modal" id="user4">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                      <div class="modal-header">
+                            <h3 class="modal-title">Additional Details</h3>
+                          <button type="button" class="close" data-dismiss="modal">&times;
+                          </button>
+                      </div>
+                      <!--this is where the info  goes-->
+                          <div class="modal-body">
+                              <ol>
+                                  <li>user home address: 18 Buitenkant Street</li>
+                                  <li>next of kin's name: Alicia Low</li>
+                                  <li>relationship with next of kin: Sister</li>
+                                  <li>next of kin's cellphone number: (+27)68 654 9303</li>
+                                  <li>next of kin's email address: alicia233@gmail.com</li>
+                              </ol>
+                              </div>
+                              <div class="modal-footer">
+                                  <button
+                                  type="button"
+                                  class="btn-btn-danger"
+                                  data-dismiss="modal">
+                              close
+                              </button>
+                                       </div>
+                                          </div>
+                                             </div>
+                                                 </div>
+                            
+                                                       </div>
+                                                          </div>
+                                                              </div>
+                          <div class="col-sm-3">
+                            <div class="card">
+                             <a href="#user5"><img class="img-responsive"
+                                img class="card-img-top" style="height: 200px;" src="https://i.pravatar.cc/150?img=32" 
+                                data-toggle="modal"
+                                 data-target="#user5"></a>
+                             <div class="card-block">
+                            <h3 class="card-title">Title: Lawyer</h3>
+                                <p class="card-text">name: Samantha</p>
+                                <p class="card-text">surname: De klerk</p>
+                                <p class="card-text">email:sammydeklerk@gmail.com</p>  
+                                <p class="card-text">cell number:(+27)79 343 6351</p> 
+                                <p class="card-text">landline: 021 111 7662</p>
+                                              <button
+                                                    type="button"
+                                                     class="btn-btn-primary"
+                                                     data-toggle="modal"
+                                                     data-target="#user5">more info
+                                                </button>     
+                                                <button
+                                             type="button"
+                                             class="btn-btn-primary"
+                                             data-toggle="modal"
+                                             data-target="#Delete">Delete
+                                            </button>             
+                                    <!--modal for the fifth user-->                                                             
+                     <div class="modal" id="user5">
+                     <div class="modal-dialog">
+                     <div class="modal-content">
+                     <div class="modal-header">
+                         <h3 class="modal-title">Additional Details</h3>
+                          <button type="button" class="close" data-dismiss="modal">&times;
+                          </button>
+                                 </div>
+                      <!--this is where the info  goes-->
+                          <div class="modal-body">
+                              <ol>
+                                  <li>user home address: 12 Adderley Street.</li>
+                                  <li>next of kin's name: Johnson De Klerk</li>
+                                  <li>relationship with next of kin: wife</li>
+                                  <li>next of kin's cellphone number:(+27)78 927 0938</li>
+                                  <li>next of kin's email address: mrdeklerk@gmail.com</li>
+                              </ol>
+                              </div>
+                              <div class="modal-footer">
+                                  <button
+                                  type="button"
+                                  class="btn-btn-danger"
+                                  data-dismiss="modal">
+                              close
+                              </button>
+                                        </div>
+                                            </div>
+                                                 </div>
+                                                     </div>                         
+                                                           </div>
+                                                                 </div>
                                                                         </div>
-                                                                            </div>      
-                                                                                  </div>
-                                                            
+                                 <div class="col-sm-3">
+                                 <div class="card">
+                                 <a href="#user6"><img class="img-responsive"
+                                     img class="card-img-top" style="height: 200px;" src="https://i.pravatar.cc/150?img=35"
+                                     data-toggle="modal"
+                                     data-target="#user6"/></a>
+                                      <div class="card-block">
+                              <h3 class="card-title">Title: Receptionist</h3>
+                              <p class="card-text">name: Mitchell</p>
+                              <p class="card-text">surname: Klate</p>
+                              <p class="card-text">email:mjklate@gmail.com</p>  
+                              <p class="card-text">cell number: (+27)68 998 0174</p> 
+                              <p class="card-text">landline: 021 101 7662</p>
+                                           <button
+                             `                   type="button"
+                                                 class="btn-btn-primary"
+                                                 data-toggle="modal"
+                                                 data-target="#user6"> more Info
+                                             </button>
+                                             <button
+                                             type="button"
+                                             class="btn-btn-primary"
+                                             data-toggle="modal"
+                                             data-target="#Delete">Delete
+                                            </button>
+                                 <!--modal for the sixth user-->                                                             
+             <div class="modal" id="user6">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                      <div class="modal-header">
+                            <h3 class="modal-title">Additional Details</h3>
+                          <button type="button" class="close" data-dismiss="modal">&times;
+                          </button>
+                                </div>
+                      <!--this is where the info  goes-->
+                          <div class="modal-body">
+                              <ol>
+                                  <li>user home address: 45 Bree Street</li>
+                                  <li>next of kin's name: Dannie Klate</li>
+                                  <li>relationship with next of kin: Sister</li>
+                                  <li>next of kin's cellphone number: (+27)73 367 7833</li>
+                                  <li>next of kin's email address: dannie07@gmail.com</li>
+                              </ol>
+                              </div>
+                              <div class="modal-footer">
+                                  <button
+                                  type="button"
+                                  class="btn-btn-danger"
+                                  data-dismiss="modal">
+                              close
+                              </button>
+                                           </div>
+                                              </div>
+                                                 </div>
+                                                    </div>
 
+                                           
+                                                            </div>
+                                                                  </div>
+                                                                        </div>
+                                 <div class="col-sm-3">
+                                   <div class="card">
+                                     <a href="#user7"><img class="img-responsive" 
+                                         img class="card-img-top" style="height: 200px;" src="https://i.pravatar.cc/150?img=11" 
+                                         data-toggle="modal"
+                                         data-target="#user7"></a>
+                                            <div class="card-block">
+                                <h3 class="card-title">Title: Adviser</h3>
+                                <p class="card-text">name: Tyrese</p>
+                                <p class="card-text">surname: Shaw</p>
+                                <p class="card-text">email:tshaw0991@gmail.com</p>  
+                                <p class="card-text">cell number:(+27)71 176 0092</p> 
+                                <p class="card-text">landline: 021 001 7662</p>
+                                                <button
+                                                     type="button"
+                                                     class="btn-btn-primary"
+                                                     data-toggle="modal"
+                                                     data-target="#user7">more info
+                                                 </button>
+                                                 <button
+                                             type="button"
+                                             class="btn-btn-primary"
+                                             data-toggle="modal"
+                                             data-target="#Delete">Delete
+                                            </button>
+                                                 
+                                           <!--modal for the seventh user-->                                                             
+             <div class="modal" id="user7">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                      <div class="modal-header">
+                            <h3 class="modal-title">Additional Details</h3>
+                          <button type="button" class="close" data-dismiss="modal">&times;
+                          </button>
+                      </div>
+                      <!--this is where the info  goes-->
+                          <div class="modal-body">
+                              <ol>
+                                  <li>user home address: 17 loop street</li>
+                                  <li>next of kin's name: Bryson Shaw</li>
+                                  <li>relationship with next of kin: Father</li>
+                                  <li>next of kin's cellphone number: (+27)76 455 8965</li>
+                                  <li>next of kin's email address: iambryson@gmail.com</li>
+                              </ol>
+                              </div>
+                              <div class="modal-footer">
+                             <button
+                                  type="button"
+                                  class="btn-btn-danger"
+                                  data-dismiss="modal">
+                                close
+                              </button>
+                                         </div>
+                                             </div>
+                                                </div>
+                                                     </div>
+                              
 
+                                                  </div>
+                                                       </div>
+                                                             </div>  
+                                                                                       
+                           <div class="col-sm-3">
+                             <div class="card">  
+                                <a href="#user8"><img class="img-responsive"
+                                        img class="card-img-top" style="height: 200px;" src="https://i.pravatar.cc/150?img=17" 
+                                        data-toggle="modal"
+                                        data-target="#user8"></a>
+                                          <div class="card-block">
+                                <h3 class="card-title">Title: CEO</h3>
+                                <p class="card-text">name: Alex</p>
+                                <p class="card-text">surname: Mitrovic</p>
+                                <p class="card-text">email: siralexmitrovic@gmail.com</p>  
+                                <p class="card-text">cell number:(+44)73 786 4542</p> 
+                                <p class="card-text">landline: 020 234 5634</p>
+                                                   <button
+                                                         type="button"
+                                                         class="btn-btn-primary"
+                                                         data-toggle="modal"
+                                                         data-target="#user8">more info
+                                                 </button>
+                                                 <button
+                                             type="button"
+                                             class="btn-btn-primary"
+                                             data-toggle="modal"
+                                             data-target="#Delete">Delete
+                                            </button>
+                                                 
+                                               <!--modal for the eighth user-->                                                             
+             <div class="modal" id="user8">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                      <div class="modal-header">
+                            <h3 class="modal-title">Additional Details</h3>
+                          <button type="button" class="close" data-dismiss="modal">&times;
+                          </button>
+                      </div>
+                                 <!--this is where the info  goes-->
+                          <div class="modal-body">
+                              <ol>
+                                  <li>user home address: 03 Gold Hill, Shaftesbury, Dorset</li>
+                                  <li>next of kin's name: Ariana Mitrovic</li>
+                                  <li>relationship with next of kin: Husband</li>
+                                  <li>next of kin's cellphone number: (+44)68 854 2435</li>
+                                  <li>next of kin's email address: mrsarianamitrovic@gmail.com</li>
+                              </ol>
+                              </div>
+                              <div class="modal-footer">
+                              <button
+                                  type="button"
+                                  class="btn-btn-danger"
+                                  data-dismiss="modal">
+                                     close
+                               </button>
+                                    </div>
+                                        </div>
+                                             </div>
+                                                 </div>
+                              
 
+                                                   </div>
+                                                       </div>
+                                                            </div>
+           <div class="container">             
+           <h3>New User</h3>
+             <button type="button" class="btn btn-danger btn-lg" data-toggle="modal" data-target="#myModal">Sign Up</button>
+                  <div class="modal fade" id="myModal" role="dialog">
+                    <div class="modal-dialog">
+                       <div class="modal-content">
+                         <div class="alert alert-default">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                               <h3 class="modal-title">SIGN UP</h3>
+                               <form action="/project.html" method="POST">
+                  <h1>WELCOME</h1>
+                 <p>please sign up</p>
+            
+             </form>
+             <div class="form-row">
+             <label for="username">username:</label>
+             <input type="text" class="form-control" id="uname" placeholder="enter username" name="username" required><br><br>
+                 <div class="valid-feedback"></div>
+                 <div class="invalid-feedback"></div>
+                 <label for="first name">first name:</label>
+                 <input type="text" class="form-control" id="uname" placeholder="enter first name" name="first name" required><br><br>
+                 <div class="valid-feedback"></div>
+                 <div class="invalid-feedback"></div>
+                 <label for="last name">last name:</label>
+                 <input type="text" class="form-control" id="uname" placeholder="enter last name" name="last name" required><br><br>
+                 <div class="valid-feedback"></div>
+                 <div class="invalid-feedback"></div>
+                 <label for="last name">email address:</label>
+                 <input type="text" class="form-control" id="uname" placeholder="enter email@gmail.com" name="email address" required><br><br>
+                 <div class="valid-feedback"></div>
+                 <div class="invalid-feedback"></div>
+                 <label for="last name">cellphone number:</label>
+                 <input type="text" class="form-control" id="uname" placeholder="enter cellphone number" name="cellphone number" required><br><br>
+                 <div class="valid-feedback"></div>
+                 <div class="invalid-feedback"></div>
+                 <label for="last name">landline number:</label>
+                 <input type="text" class="form-control" id="uname" placeholder="enter landline number" name="landline number" required><br><br>
+                 <div class="valid-feedback"></div>
+                 <div class="invalid-feedback"></div>
+                 <label for="last name">home address:</label>
+                 <input type="text" class="form-control" id="uname" placeholder="enter user home address" name="home address" required><br><br>
+                 <div class="valid-feedback"></div>
+                 <div class="invalid-feedback"></div>
+                 <label for="last name">next of kin:</label>
+                 <input type="text" class="form-control" id="uname" placeholder="enter name of next of kin" name="next of kin" required><br><br>
+                 <div class="valid-feedback"></div>
+                 <div class="invalid-feedback"></div>
+                 <label for="last name">relationship with next of kin:</label>
+                 <input type="text" class="form-control" id="uname" placeholder="enter relationship with next of kin " name="relationship with next of kin" required><br><br>
+                 <div class="valid-feedback"></div>
+                 <div class="invalid-feedback"></div>
+                 <label for="last name">contact details:</label>
+                 <input type="text" class="form-control" id="uname" placeholder="enter next of kin's cellphone number" name="contact details" required><br><br>
+                 <div class="valid-feedback"></div>
+                 <div class="invalid-feedback"></div>
+                 <label for="last name">email address:</label>
+                 <input type="text" class="form-control" id="uname" placeholder="enter next of kin's email address@gmail.com" name="email address" required><br><br>
+                 <div class="valid-feedback"></div>
+                 <div class="invalid-feedback"></div>
+                 <label for="user-pw">password:</label>
+                 <input type="password" class="form-control" id="uname" placeholder="enter new-password" name="password" required>
+                 <div class="valid-feedback"></div>
+                 <div class="invalid-feedback"></div>
+                 <input type="password" class="form-control" id="uname" placeholder="re-enter-password" name="password" required>
+                 <div class="valid-feedback"></div>
+                 <div class="invalid-feedback"></div>
+                 <small id="user-pwHelp" class="form-text text-muted">your password is safe and secure.</small>
+                 <br><br>
+              <button type="button" class="btn btn-info">Submit</button>
+              <button type="button" class="btn btn-default" data-dismiss="modal">Back</button>
 
-
-
-
-
-
-        </div>
-        
-
-
-
-
-
-
-
-
-
-
-    </form>
-
-
+                                                       </div>
+                                                           </div>
+                                                               </div>
+                                                                   </div>
+                                                                      </div>
+                                                                         </div>
+                                                                             </div>      
+                                                                                   </div>
+                                                                                   
+                                          <!--Delete User Modal-->
+                                <div class="modal" id="Delete">
+                               <div class="modal-dialog">
+                                <div class="modal-content">
+                               <div class="modal-header">
+                               <h3 class="modal-title">Are you Sure you want to delete</h3>
+                             <button type="button" class="close" data-dismiss="modal">&times;
+                                </button>
+                                    </div>
+                                              <!--confirmation details-->
+                     <div class="modal-body">
+                    <button class="btn btn-danger">YES</button>
+                   <button class="btn btn-primary">NO</button>
+                      </div>
+                          <div class="modal-footer">
+                         <button
+                           type="button"
+                           class="btn-btn-danger"
+                          data-dismiss="modal">
+                          close
+                         </button>
+                </div>
+                </div>
+                </div>
+                </div>
+                
+                </div>
+       
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+ </body>
+ </html>
 
